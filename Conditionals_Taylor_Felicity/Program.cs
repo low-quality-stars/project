@@ -43,7 +43,7 @@ namespace Conditionals_Taylor_Felicity
             int max = Math.Max(maxNum1, numTwo);
 
             //prints max number to console
-            Console.WriteLine($"the maximum number between {myNum} and {numOne} and {numTwo} is {max}\n");
+            Console.WriteLine($"the maximum number between {myNum} and {numOne} and {numTwo} is {max}");
 
             //asks user to enter a letter grade & assigns to grade char variable
             Console.WriteLine("please enter a grade (A, B, C, D, F)");

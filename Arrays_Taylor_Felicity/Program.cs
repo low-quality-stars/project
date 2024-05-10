@@ -10,7 +10,7 @@ namespace Arrays_Taylor_Felicity
         //Main method excecuted when app atarts
         static void Main(string[] args)
         {
-            //
+            //asks user for whole number, 
             Console.WriteLine("Enter a whole number for the array size.");
             int arraySize = Convert.ToInt32(Console.ReadLine());
             int[] numbers = new int[arraySize];

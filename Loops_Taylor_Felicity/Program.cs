@@ -10,19 +10,22 @@ namespace Loops_Taylor_Felicity
         //Main method excecuted when app atarts
         static void Main(string[] args)
         {
-
+            //asks user a question, reads answer
             Console.WriteLine("why do you or do you not enjoy books?");
             string response = Console.ReadLine();
 
-            Console.WriteLine($"The sentenc, \"{response}\" has {CountNumberOfSpaces(response)} spaces in it.");
+            //repeats sentence baxk telling user how many spaces are in it
+            Console.WriteLine($"The sentence, \"{response}\" has {CountNumberOfSpaces(response)} spaces in it.");
 
+            //asks user for a whole number, reads answer
             Console.WriteLine("enter a whole number");
             string response2 = Console.ReadLine();
 
+            //tells the user the sum of the individual numbers of the whole number given
             Console.WriteLine($"the sum of the idividual digits of {response2} is {SumOfDigits(response2)}.");
         }
 
-
+        //counts the number of spaces
         static int CountNumberOfSpaces(string sentence)
         {
             int numberOfSpaces = 0;
@@ -37,6 +40,7 @@ namespace Loops_Taylor_Felicity
             return numberOfSpaces;
         }
 
+        //calculates sum of numbers
         static int SumOfDigits(string number)
         {
             int sum = 0;
